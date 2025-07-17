@@ -1,6 +1,6 @@
 # 💱 Currency Converter
 
-[🇧🇷 Portuguese](#-portuguese) | [🇺🇸 English](#-english)
+[🇧🇷 Português](#-português) | [🇺🇸 English](#-english)
 
 ---
 
@@ -31,7 +31,7 @@ The project was created to practice:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/currency-converter.git
+git clone https://github.com/gustavohrdev/currency-converter.git
 ```
 
 # Enter the project folder
@@ -43,21 +43,22 @@ npm install
 # Start the development server
 npm run dev
 
-📱 Features
+###📱 Features
+
 ✅ Real-time conversion between different currencies
-
 ✅ Clean and responsive user interface
-
 ✅ Automatic updates from the exchange rate API
 
 🚧 Coming soon: conversion history, and custom currency selection
 
 ---
 
-👨‍💻 Author
-Developed by Gustavo Ribeiro
+👨‍💻 Author  
+Developed by [Gustavo Ribeiro](https://www.linkedin.com/in/gustavohrdev)
 
-🔝 Back to top
+
+[🔝 Back to top](#-currency-converter)
+
 
 ---
 
@@ -88,7 +89,7 @@ O projeto foi criado com foco em praticar:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/conversor-moedas.git
+git clone https://github.com/gustavohrdev/currency-converter.git
 ```
 
 # Acesse a pasta
@@ -102,17 +103,15 @@ npm run dev
 
 ---
 
-📱 Funcionalidades
+###📱 Funcionalidades
+
 ✅ Conversão em tempo real entre diferentes moedas
-
 ✅ Interface intuitiva e responsiva
-
 ✅ Atualizações automáticas via API
 
 🚧 Melhorias futuras: histórico de conversões e escolha personalizada de moedas
 
-👨‍💻 Autor
-Desenvolvido por Gustavo Ribeiro
+👨‍💻 Autor  
+Desenvolvido por [Gustavo Ribeiro](https://www.linkedin.com/in/gustavohrdev)
 
-🔝 Voltar ao topo
-
+[🔝 Voltar ao topo](#-currency-converter)
