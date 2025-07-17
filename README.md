@@ -1,12 +1,118 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[🇧🇷 Portuguese](#-portuguese) | [🇺🇸 English](#-english)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🇺🇸 English
 
-## Expanding the ESLint configuration
+### 📌 About the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a **Currency Converter** built with **React.js**, **JavaScript**, and **Vite**, using a public exchange rate API for real-time currency conversion.
+
+The project was created to practice:
+- API integration
+- State and form handling in React
+- Responsive design and usability
+
+---
+
+### 🧪 Technologies and tools
+
+- ⚛️ React.js  
+- 💻 JavaScript (ES6+)  
+- ⚡ Vite  
+- 🎨 CSS3  
+- 🌐 Currency API (e.g. ExchangeRate API)
+
+---
+
+### 🚀 How to run locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/currency-converter.git
+```
+
+# Enter the project folder
+cd currency-converter
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+📱 Features
+✅ Real-time conversion between different currencies
+
+✅ Clean and responsive user interface
+
+✅ Automatic updates from the exchange rate API
+
+🚧 Coming soon: conversion history, and custom currency selection
+
+---
+
+👨‍💻 Author
+Developed by Gustavo Ribeiro
+
+🔝 Back to top
+
+---
+
+## 🇧🇷 Português
+
+### 📌 Sobre o projeto
+
+Este é um **Conversor de Moedas** desenvolvido com **React.js**, **JavaScript** e **Vite**, que consome uma API pública de câmbio para conversão em tempo real.
+
+O projeto foi criado com foco em praticar:
+- Integração com APIs externas
+- Manipulação de estado e formulários no React
+- Design responsivo e usabilidade
+
+---
+
+### 🧪 Tecnologias e ferramentas
+
+- ⚛️ React.js  
+- 💻 JavaScript (ES6+)  
+- ⚡ Vite  
+- 🎨 CSS3  
+- 🌐 API de Câmbio (ex: ExchangeRate API)
+
+---
+
+### 🚀 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/conversor-moedas.git
+```
+
+# Acesse a pasta
+cd conversor-moedas
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+
+---
+
+📱 Funcionalidades
+✅ Conversão em tempo real entre diferentes moedas
+
+✅ Interface intuitiva e responsiva
+
+✅ Atualizações automáticas via API
+
+🚧 Melhorias futuras: histórico de conversões e escolha personalizada de moedas
+
+👨‍💻 Autor
+Desenvolvido por Gustavo Ribeiro
+
+🔝 Voltar ao topo
+
