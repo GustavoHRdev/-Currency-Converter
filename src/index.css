@@ -19,6 +19,14 @@ body {
     width: 100%;
 }
 
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .currency-converter {
     margin: 0 auto;
     padding: 40px 30px 50px;
@@ -37,7 +45,7 @@ body {
     text-align: center;
 }
 
-.currency-converter  .converter-form {
+.currency-converter .converter-form {
     margin-top: 45px;
 }
 
@@ -55,14 +63,83 @@ body {
     font: 1rem;
 }
 
-.converter-form .form-group .form-imput {
+.converter-form .form-group .form-input {
     outline: none;
     font-size: 1.1rem;
-    padding: 0 5px;
+    padding: 0 15px;
     color: #fff;
     font-weight: 500;
     min-height: 48px;
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.converter-form .form-currency-group{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-currency-group .currency-select {
+    display: flex;
+    padding: 0 10px;
+    min-height: 45px;
+    align-items: center;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-currency-group .currency-select img {
+    width: 25px;
+}
+
+.form-currency-group .currency-select .currency-dropdown {
+    outline: none;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 10px 0 5px;
+}
+
+.form-currency-group .currency-select .currency-dropdown option {
+   color: #000;
+   font-weight: 500;
+}
+
+.form-currency-group .swap-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid;
+    transition: 0.2s ease;
+}
+
+.form-currency-group .swap-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+} 
+
+.converter-form .submit-button {
+    width: 100%;
+    min-height: 52px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+   cursor: pointer;
+   transition: 0.2s ease;
+}
+
+.converter-form .submit-button:hover {
+    background: rgba(255, 255, 255, 0.8);
 }
