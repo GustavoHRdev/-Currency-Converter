@@ -7,7 +7,7 @@
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="public/ConversordeMoeda.png" alt="Currency Converter Preview" width="500"/>
+  <img src="dist/ConversordeMoeda.png" alt="Currency Converter Preview" width="500"/>
 </div>
 
 ---
