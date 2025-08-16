@@ -7,8 +7,14 @@
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="dist/ConversordeMoeda.png" alt="Currency Converter Preview" width="500"/>
+  <img src="docs/ConversordeMoeda.png" alt="Currency Converter Preview" width="500"/>
 </div>
+
+<p align="center">
+  <a href="https://gustavohrdev.github.io/Currency-Converter/" target="_blank">
+    🔗 <strong>Access the live site here!</strong>
+  </a>
+</p>
 
 ---
 
