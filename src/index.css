@@ -12,8 +12,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url("/imgbank.jpg") #030728 no-repeat center;
-  background-size: cover;
+  background: linear-gradient(135deg, #001F3F 0%, #000000 100%); /* Exemplo de gradiente */
+  overflow: hidden;
 }
 
 #root {

@@ -4,16 +4,24 @@
 
 ---
 
+## 🖼️ Preview
+
+<div align="center">
+  <img src="public/ConversordeMoeda.png" alt="Currency Converter Preview" width="500"/>
+</div>
+
+---
+
 ## 🇺🇸 English
 
 ### 📌 About the project
 
 This is a **Currency Converter** built with **React.js**, **JavaScript**, and **Vite**, using a public exchange rate API for real-time currency conversion.
 
-The project was created to practice:
-- API integration
-- State and form handling in React
-- Responsive design and usability
+**Main features:**
+- 🔄 Real-time conversion between different currencies
+- 🖥️ Responsive and clean user interface
+- 🌐 Automatic updates from the exchange rate API
 
 ---
 
@@ -32,7 +40,6 @@ The project was created to practice:
 ```bash
 # Clone the repository
 git clone https://github.com/gustavohrdev/currency-converter.git
-```
 
 # Enter the project folder
 cd currency-converter
@@ -42,23 +49,14 @@ npm install
 
 # Start the development server
 npm run dev
-
-###📱 Features
-
-✅ Real-time conversion between different currencies
-✅ Clean and responsive user interface
-✅ Automatic updates from the exchange rate API
-
-🚧 Coming soon: conversion history, and custom currency selection
+```
 
 ---
 
 👨‍💻 Author  
 Developed by [Gustavo Ribeiro](https://www.linkedin.com/in/gustavohrdev)
 
-
 [🔝 Back to top](#-currency-converter)
-
 
 ---
 
@@ -68,10 +66,10 @@ Developed by [Gustavo Ribeiro](https://www.linkedin.com/in/gustavohrdev)
 
 Este é um **Conversor de Moedas** desenvolvido com **React.js**, **JavaScript** e **Vite**, que consome uma API pública de câmbio para conversão em tempo real.
 
-O projeto foi criado com foco em praticar:
-- Integração com APIs externas
-- Manipulação de estado e formulários no React
-- Design responsivo e usabilidade
+**Principais funcionalidades:**
+- 🔄 Conversão em tempo real entre diferentes moedas
+- 🖥️ Interface intuitiva e responsiva
+- 🌐 Atualizações automáticas via API
 
 ---
 
@@ -90,26 +88,18 @@ O projeto foi criado com foco em praticar:
 ```bash
 # Clone o repositório
 git clone https://github.com/gustavohrdev/currency-converter.git
-```
 
 # Acesse a pasta
-cd conversor-moedas
+cd currency-converter
 
 # Instale as dependências
 npm install
 
 # Rode o servidor de desenvolvimento
 npm run dev
+```
 
 ---
-
-###📱 Funcionalidades
-
-✅ Conversão em tempo real entre diferentes moedas
-✅ Interface intuitiva e responsiva
-✅ Atualizações automáticas via API
-
-🚧 Melhorias futuras: histórico de conversões e escolha personalizada de moedas
 
 👨‍💻 Autor  
 Desenvolvido por [Gustavo Ribeiro](https://www.linkedin.com/in/gustavohrdev)

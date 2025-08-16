@@ -2,11 +2,19 @@ import { useState, useEffect } from "react";
 
 const CURRENCIES = [
   { code: "USD", name: "US Dollar", flag: "US" },
-  { code: "INR", name: "Indian Rupee", flag: "IN" },
-  { code: "NPR", name: "Nepalese Rupee", flag: "NP" },
-  { code: "EUR", name: "Euro", flag: "EU" },
-  { code: "JPY", name: "Japanese Yen", flag: "JP" },
-  { code: "BRL", name: "Brazilian Real", flag: "BR" },
+{ code: "INR", name: "Indian Rupee", flag: "IN" },
+{ code: "EUR", name: "Euro", flag: "EU" }, 
+{ code: "JPY", name: "Japanese Yen", flag: "JP" },
+{ code: "BRL", name: "Brazilian Real", flag: "BR" },
+{ code: "GBP", name: "British Pound", flag: "GB" },
+{ code: "AUD", name: "Australian Dollar", flag: "AU" },
+{ code: "CAD", name: "Canadian Dollar", flag: "CA" },
+{ code: "CNY", name: "Chinese Yuan", flag: "CN" },
+{ code: "RUB", name: "Russian Ruble", flag: "RU" },
+{ code: "ZAR", name: "South African Rand", flag: "ZA" },
+{ code: "KRW", name: "South Korean Won", flag: "KR" },
+{ code: "MXN", name: "Mexican Peso", flag: "MX" }
+  
   // Adicione mais moedas conforme necessário
 ];
 
@@ -88,8 +96,13 @@ const App = () => {
             </label>
             <div className="currency-select">
               <img
-                src={`https://flagsapi.com/${CURRENCIES.find(c => c.code === fromCurrency)?.flag}/flat/64.png`}
-                alt="From Flag"
+                src={
+                  CURRENCIES.find(c => c.code === fromCurrency)?.flag === "EU"
+                    ? "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
+                    : `https://flagsapi.com/${CURRENCIES.find(c => c.code === fromCurrency)?.flag}/flat/64.png`
+                }
+                alt={`${fromCurrency} flag`}
+                className="flag-img"
               />
               <select
                 id="from-currency"
@@ -123,8 +136,13 @@ const App = () => {
             </label>
             <div className="currency-select">
               <img
-                src={`https://flagsapi.com/${CURRENCIES.find(c => c.code === toCurrency)?.flag}/flat/64.png`}
-                alt="To Flag"
+                src={
+                  CURRENCIES.find(c => c.code === toCurrency)?.flag === "EU"
+                    ? "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
+                    : `https://flagsapi.com/${CURRENCIES.find(c => c.code === toCurrency)?.flag}/flat/64.png`
+                }
+                alt={`${toCurrency} flag`}
+                className="flag-img"
               />
               <select
                 id="to-currency"
